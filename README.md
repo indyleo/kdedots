@@ -34,7 +34,3 @@ tailscale up --operator=$USER
 - Set the Icons to Papirus Dark
 - Set the Cursor to Nordzy Cursors
 - Set and get the Splash screen to Arch Simple Blue KDE 6
-
-# Piper Reminder
-
-If you want to change your mouse setting (only if you have a logitech mouse) you need to plug it in to your computer with a cable, you cant just do it wireless.
