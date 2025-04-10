@@ -11,14 +11,6 @@ My Dotfiles for my kde config for [Debian 13](https://cdimage.debian.org/cdimage
 - Set Krunner to be in the center of the screen
 - Import my window rules, and shortcuts
 
-# EnvyControl
-
-```bash
-sudo python3 envycontrol.py -s nvidia --force-comp --coolbits 2
-sudo reboot
-
-```
-
 # How to install
 
 ```bash

@@ -34,7 +34,6 @@ git_clone() {
 }
 
 # Clone repositories
-git_clone https://github.com/bayasdev/envycontrol.git ~/Github/envycontrol
 git_clone https://github.com/indyleo/scripts.git ~/.local/scripts
 git_clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm
 git_clone https://github.com/jesseduffield/lazygit.git ~/Github/lazygit
@@ -157,9 +156,6 @@ git_clone https://github.com/hlissner/zsh-autopair.git ~/Zsh-Plugins/zsh-autopai
 # Set zsh as the default login shell
 chsh -s "$(which zsh)" "$USER"
 
-# Add user to libvirt group
-sudo usermod -aG libvirt "$(whoami)"
-
 echo "###############"
 echo "## Tailscale ##"
 echo "###############"
@@ -177,9 +173,9 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 echo "#####################"
 echo "## Flatpak Install ##"
 echo "#####################"
-flatpak install -y io.github.dweymouth.supersonic com.obsproject.Studio io.github.arunsivaramanneo.GPUViewer org.fedoraproject.MediaWriter com.chatterino.chatterino net.lutris.Lutris \
-    com.github.tchx84.Flatseal org.prismlauncher.PrismLauncher com.heroicgameslauncher.hgl xyz.xclicker.xclicker dev.vencord.Vesktop org.winehq.Wine com.usebottles.bottles \
-    com.valvesoftware.steam net.davidotek.pupgui2 org.fkoehler.KTailctl com.brave.Browser com.github.Matoking.protontricks
+flatpak install -y io.github.dweymouth.supersonic org.fedoraproject.MediaWriter com.chatterino.chatterino net.lutris.Lutris com.github.tchx84.Flatseal \
+    org.prismlauncher.PrismLauncher xyz.xclicker.xclicker dev.vencord.Vesktop org.winehq.Wine com.valvesoftware.steam net.davidotek.pupgui2 org.fkoehler.KTailctl \
+    com.brave.Browser com.github.Matoking.protontricks
 
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
 
