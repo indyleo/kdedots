@@ -23,7 +23,7 @@ sudo ./install.sh
 
 # Tailscale Setup
 
-tailscale up --ssh --operator=$USER
+tailscale up --operator=$USER
 
 # Theme Settings
 
