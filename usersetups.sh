@@ -134,7 +134,7 @@ for f in ~/.bashrc ~/.profile ~/.zshenv ~/.zshrc; do
     break
   fi
 done
-mv -v .profile .zshenv .zshrc .functionrc .aliasrc .xsession .Xresources ~/
+mv -v .profile .zshenv .zshrc .functionrc .aliasrc ~/
 
 # Cursor Theme
 echo "###################"
