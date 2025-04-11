@@ -1,6 +1,6 @@
 # My Dotfiles
 
-My Dotfiles for my kde config for [Debian 13](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-dvd/) or lfs with apt
+My Dotfiles for my kde config for [Debian 13](https://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/) or lfs with apt
 
 # Other Settings
 
@@ -16,7 +16,7 @@ My Dotfiles for my kde config for [Debian 13](https://cdimage.debian.org/cdimage
 ```bash
 git clone https://github.com/indyleo/kdedots.git
 cd kdedots
-git checkout less-powerd 
+git checkout less-powerd
 sudo ./pkginstall.sh
 ./usersetups.sh
 ```
