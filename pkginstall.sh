@@ -28,7 +28,7 @@ apt install -y \
     docx2txt genisoimage libimage-exiftool-perl libmagic-dev libmagic1 brightnessctl xbacklight zsh zsh-syntax-highlighting zsh-autosuggestions \
     ripgrep fd-find neovim npm flatpak golang-go python3-pip pipx cowsay cmatrix tty-clock lolcat fastfetch htop bash bash-completion \
     openjdk-17-jdk openjdk-17-jre gradle transmission-qt transmission-cli geoip-bin xsel alacritty timeshift \
-    gparted yt-dlp mediainfo ffmpegthumbnailer ffmpeg cava playerctl mpv peek vlc mesa-utilspipes-sh unrar hunspell qpwgraph \
+    gparted yt-dlp mediainfo ffmpegthumbnailer ffmpeg cava playerctl mpv peek vlc mesa-utils pipes-sh unrar hunspell qpwgraph \
     firmware-misc-nonfree fonts-font-awesome fontconfig fonts-noto fonts-ubuntu fonts-jetbrains-mono extra-cmake-modules qt6-tools-dev kwin-dev \
     libkf6configwidgets-dev gettext libkf6crash-dev libkf6globalaccel-dev libkf6kio-dev libkf6service-dev libkf6notifications-dev libkf6kcmutils-dev \
     libkdecorations3-dev libxcb-composite0-dev libxcb-randr0-dev libxcb-shm0-dev libx11-dev libxext-dev qt6-base-dev qt6-svg-dev libkf6windowsystem-dev \
