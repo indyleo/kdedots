@@ -20,9 +20,6 @@ fi
 # Update the system
 apt update && apt upgrade -y
 
-# Update the pkg list
-apt update
-
 # Install the packages
 apt install -y \
     direnv yad fzf locate gh tree build-essential git cmake make libhidapi-dev gpg openssl tldr trash-cli g++ gcc wget curl \
