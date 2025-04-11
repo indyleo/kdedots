@@ -57,7 +57,7 @@ sudo luarocks install luacheck
 echo "#####################"
 echo "## Python Programs ##"
 echo "#####################"
-pipx installl spotdl
+pipx install spotdl
 
 echo "##################"
 echo "## Kwin Effects ##"
