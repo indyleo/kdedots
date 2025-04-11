@@ -180,7 +180,7 @@ echo "#####################"
 echo "## Flatpak Install ##"
 echo "#####################"
 flatpak install -y io.github.dweymouth.supersonic org.fedoraproject.MediaWriter com.chatterino.chatterino net.lutris.Lutris com.github.tchx84.Flatseal \
-    org.prismlauncher.PrismLauncher xyz.xclicker.xclicker dev.vencord.Vesktop org.winehq.Wine com.valvesoftware.steam net.davidotek.pupgui2 org.fkoehler.KTailctl \
+    org.prismlauncher.PrismLauncher xyz.xclicker.xclicker dev.vencord.Vesktop org.winehq.Wine com.valvesoftware.Steam net.davidotek.pupgui2 org.fkoehler.KTailctl \
     com.brave.Browser com.github.Matoking.protontricks
 
 flatpak install --user https://sober.vinegarhq.org/sober.flatpakref
