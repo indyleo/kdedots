@@ -20,9 +20,6 @@ fi
 # Update the system
 apt update && apt upgrade -y
 
-# Add 32 bit support
-dpkg --add-architecture i386
-
 # Update the pkg list
 apt update
 
