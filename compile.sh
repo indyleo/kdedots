@@ -10,7 +10,6 @@ git_clone() {
 }
 
 echo "Cloning repositories..."
-git_clone https://github.com/bayasdev/envycontrol.git ~/Github/envycontrol
 git_clone https://github.com/indyleo/scripts.git ~/.local/scripts
 git_clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm
 git_clone https://github.com/jesseduffield/lazygit.git ~/Github/lazygit
@@ -49,7 +48,7 @@ cd "$builddir"
 
 echo "Installing rust..."
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-[[ -f "$HOME/.cargo/env" ]] || . "$HOME/.cargo/env"
+[[ -f "$HOME/.cargo/env" ]] && source "$HOME/.cargo/env"
 
 echo "Installing bob-nvim..."
 cargo install bob-nvim
