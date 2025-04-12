@@ -33,3 +33,5 @@ tailscale up --operator=$USER
 - Set the Icons to Papirus Dark
 - Set the Cursor to Nordzy Cursors
 - Set and get the Splash screen to Arch Simple Blue KDE 6
+
+![Peek 2025-04-12 19-33](https://github.com/user-attachments/assets/21c9168d-0e4f-413a-9306-75168a0655f3)
