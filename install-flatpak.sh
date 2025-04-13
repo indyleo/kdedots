@@ -31,6 +31,6 @@ for pak in "${FLATPAKS[@]}"; do
 done
 
 echo "Installing Sober..."
-flatpak install --noninteractive --user org.vinegarhq.Sober
+flatpak install --noninteractive --user flathub org.vinegarhq.Sober
 
 echo "Flatpaks installed"
