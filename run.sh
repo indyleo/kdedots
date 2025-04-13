@@ -138,9 +138,6 @@ echo "Configuring zsh plugins..."
 # Set zsh as the default login shell
 chsh -s "$(which zsh)" "$USER"
 
-# Add user to libvirt group
-sudo usermod -aG libvirt "$(whoami)"
-
 echo "Installing tailscale..."
 [[ -f ./tailscale.sh ]] && source ./tailscale.sh
 
