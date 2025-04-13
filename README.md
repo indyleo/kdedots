@@ -14,8 +14,8 @@ My Dotfiles for my kde config for [Debian 13](https://cdimage.debian.org/cdimage
 # How to install
 
 ```bash
-git clone https://github.com/indyleo/kdedots.git
-cd kdedots
+git clone https://github.com/indyleo/Catalyst.git
+cd Catalyst
 git checkout less-powerd
 ./run.sh
 ```
@@ -23,7 +23,7 @@ git checkout less-powerd
 or
 
 ```bash
-wget https://raw.githubusercontent.com/indyleo/kdedots/refs/heads/less-powerd/helper.sh
+wget https://raw.githubusercontent.com/indyleo/Catalyst/refs/heads/less-powerd/helper.sh
 chmod a+x helper.sh
 ./helper.sh
 ```
