@@ -126,6 +126,9 @@ echo "Now setting up Sddm theme"
 echo "Configuring flatpaks..."
 [[ -f ./install-flatpak.sh ]] && source ./install-flatpak.sh
 
+echo "Compiling..."
+[[ -f ./compile.sh ]] && source ./compile.sh
+
 echo "Dot files..."
 [[ -f ./dots.sh ]] && source ./dots.sh
 
