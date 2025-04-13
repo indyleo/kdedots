@@ -104,13 +104,13 @@ echo "Installing fonts..."
 install_packages "${FONTS[@]}"
 
 echo "Installing nerd fonts..."
-install_font "${NERD_FONTS[@]}"
+install_fonts "${NERD_FONTS[@]}"
 
 echo "Updating font cache..."
 fc-cache -vf
 
 echo "Now setting up Sddm theme"
-[[ -f ./Nordic-Plasma-6.tar.xz ]] &&  tar -xf Nordic-Plasma-6.tar.xz -C /usr/share/sddm/themes/
+[[ -f ./Nordic-Plasma-6.tar.xz ]] &&  sudo tar -xf Nordic-Plasma-6.tar.xz -C /usr/share/sddm/themes/
 [[ -f ./sddm.conf ]] && sudo mv -v sddm.conf /etc/sddm.conf
 
 # echo "Configuring services..."
