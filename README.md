@@ -20,6 +20,8 @@ git checkout less-powerd
 ./run.sh
 ```
 
+or
+
 # Tailscale Setup
 
 tailscale up --operator=$USER
