@@ -15,7 +15,7 @@ FLATPAKS=(
     "org.fkoehler.KTailctl"
     "com.brave.Browser"
     "com.github.Matoking.protontricks"
-    "flathub org.vinegarhq.Sober"
+    "org.vinegarhq.Sober"
 )
 
 echo "Getting flathub repo..."
