@@ -22,6 +22,12 @@ git checkout less-powerd
 
 or
 
+```bash
+wget https://raw.githubusercontent.com/indyleo/kdedots/refs/heads/less-powerd/helper.sh
+chmod a+x helper.sh
+./helper.sh
+```
+
 # Tailscale Setup
 
 tailscale up --operator=$USER
