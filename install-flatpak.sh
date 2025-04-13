@@ -15,6 +15,7 @@ FLATPAKS=(
     "org.fkoehler.KTailctl"
     "com.brave.Browser"
     "com.github.Matoking.protontricks"
+    "flathub org.vinegarhq.Sober"
 )
 
 echo "Getting flathub repo..."
@@ -29,8 +30,5 @@ for pak in "${FLATPAKS[@]}"; do
         echo "Flatpak already installed: $pak"
     fi
 done
-
-echo "Installing Sober..."
-flatpak install --noninteractive --user flathub org.vinegarhq.Sober
 
 echo "Flatpaks installed"
