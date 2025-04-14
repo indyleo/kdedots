@@ -7,6 +7,7 @@ FLATPAKS=(
     "net.lutris.Lutris"
     "com.github.tchx84.Flatseal"
     "org.prismlauncher.PrismLauncher"
+    "com.valvesoftware.Steam"
     "xyz.xclicker.xclicker"
     "dev.vencord.Vesktop"
     "org.winehq.Wine"
