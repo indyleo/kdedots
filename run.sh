@@ -161,6 +161,9 @@ fc-cache -vf
 echo "Configuring flatpaks..."
 [[ -f ./install-flatpak.sh ]] && source ./install-flatpak.sh
 
+echo "Installing brave..."
+[[ -f ./brave.sh ]] && source ./brave.sh
+
 echo "Compiling..."
 [[ -f ./compile.sh ]] && source ./compile.sh
 

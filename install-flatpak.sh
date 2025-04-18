@@ -13,7 +13,6 @@ FLATPAKS=(
     "org.winehq.Wine"
     "net.davidotek.pupgui2"
     "org.fkoehler.KTailctl"
-    "com.brave.Browser"
     "com.github.Matoking.protontricks"
     "org.vinegarhq.Sober"
     "io.unobserved.espansoGUI"
