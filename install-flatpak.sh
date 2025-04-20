@@ -16,6 +16,7 @@ FLATPAKS=(
     "com.github.Matoking.protontricks"
     "org.vinegarhq.Sober"
     "io.unobserved.espansoGUI"
+    "org.gtk.Gtk3theme.Materia-nord"
 )
 
 echo "Getting flathub repo..."
