@@ -1,5 +1,5 @@
 #!/bin/env bash
-
+ORIGINAL_DIR=$(pwd)
 git_clone() {
     local repo="$1"
     local dest="$2"
@@ -25,6 +25,13 @@ tar xf Nordic.tar.xz -C ~/.local/share/themes/
 rm -fv Nordic.tar.xz
 gsettings set org.gnome.desktop.interface gtk-theme "Nordic"
 gsettings set org.gnome.desktop.wm.preferences theme "Nordic"
+
+echo "Setting up Nord Kvantum Theme"
+git clone https://github.com/tonyfettes/materia-nord-kvantum.git
+cd materia-nord-kvantum
+sudo cp -vr Kvantum/MateriaNordDark /usr/share/Kvantum
+cd "$ORIGINAL_DIR"
+rm -rfv materia-nord-kvantum
 
 echo "Now setting up Sddm theme"
 [[ -f ./Nordic-Plasma-6.tar.xz ]] &&  sudo tar -xf Nordic-Plasma-6.tar.xz -C /usr/share/sddm/themes/
