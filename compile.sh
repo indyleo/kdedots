@@ -32,12 +32,17 @@ pipx install spotdl
 
 echo "Installing kwin-effects-forceblur..."
 cd ~/Github/kwin-effects-forceblur
-mkdir build
-cd build
-cmake ../ -DCMAKE_INSTALL_PREFIX=/usr
-make -j
-sudo make install
-cd "$builddir"
+if command -v kwin_x11 &> /dev/null; then
+    mkdir build
+    cd build
+    cmake ../ -DCMAKE_INSTALL_PREFIX=/usr
+    make -j
+    sudo make install
+    cd "$builddir"
+else
+    echo "Skipping kwin-effects-forceblur, kwin_x11 not found"
+    cd "$builddir"
+fi
 
 echo "Installing kvantum..."
 cd ~/Github/Kvantum/Kvantum
