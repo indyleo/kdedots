@@ -12,7 +12,6 @@ git_clone() {
 echo "Cloning repositories..."
 git_clone https://github.com/indyleo/scripts.git ~/.local/scripts
 git_clone https://github.com/jesseduffield/lazygit.git ~/Github/lazygit
-git_clone https://github.com/taj-ny/kwin-effects-forceblur.git ~/Github/kwin-effects-forceblur
 git_clone https://github.com/tsujan/Kvantum.git ~/Github/Kvantum
 git_clone https://codeberg.org/AnErrupTion/ly.git ~/Github/ly
 
@@ -29,20 +28,6 @@ sudo luarocks install luacheck
 
 echo "Installing spotdl..."
 pipx install spotdl
-
-echo "Installing kwin-effects-forceblur..."
-cd ~/Github/kwin-effects-forceblur
-if command -v kwin_x11 &> /dev/null; then
-    mkdir build
-    cd build
-    cmake ../ -DCMAKE_INSTALL_PREFIX=/usr
-    make -j
-    sudo make install
-    cd "$builddir"
-else
-    echo "Skipping kwin-effects-forceblur, kwin_x11 not found"
-    cd "$builddir"
-fi
 
 echo "Installing kvantum..."
 cd ~/Github/Kvantum/Kvantum
