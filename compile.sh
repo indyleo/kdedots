@@ -83,3 +83,8 @@ sudo zig build installexe
 sudo systemctl disable getty@tty2.service
 cd "$builddir"
 sudo cp -v config.ini /etc/ly/config.ini
+
+echo "Installing fusee-nano..."
+cd ~/Github/fusee-nano
+sudo make install
+cd "$builddir"
